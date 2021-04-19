@@ -169,3 +169,60 @@ html , body{
     border-radius: 50px;
     color: white;
 }
+@media only screen and (max-width:600px){
+    .Header{
+        height: 300px;
+    }
+    .TopMenu{
+        display: none !important;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .headerTitle{
+        font-size: 20px;
+    }
+    .Post{
+        width: 100%;
+    }
+    .PostData{
+        height: 300px;
+    }
+    .PostInfo{
+        justify-content: center;
+    }
+    .PostInfo a{
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width:900px){
+    .Header{
+        height: 300px;
+    }
+    .TopMenu{
+        display: none !important;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .headerTitle{
+        font-size: 20px;
+    }
+    .Post{
+        width: 45%;
+    }
+    .PostData{
+        height: 300px;
+        width: 78%;
+    }
+    .PostInfo{
+        justify-content: center;
+    }
+    .PostInfo a{
+        margin-right: 5px;
+    }
+}
